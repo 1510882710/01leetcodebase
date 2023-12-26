@@ -6,7 +6,9 @@
  **/
 public class Solution {
 
+    public static void x(){
 
+    }
 
     public static void main(String[] args) {
         String  s = "abcd";
