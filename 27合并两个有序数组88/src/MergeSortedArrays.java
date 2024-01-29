@@ -27,5 +27,19 @@ public class MergeSortedArrays {
             nums1[k--] = nums2[j--];
         }
     }
+    public static void main(String[] args) {
+        // 示例输入
+        int[] nums1 = new int[]{1, 2, 3, 0, 0, 0};
+        int m = 3;
+        int[] nums2 = new int[]{2, 5, 6};
+        int n = 3;
 
+        // 合并数组
+        merge(nums1, m, nums2, n);
+
+        // 输出合并后的数组
+        for (int num : nums1) {
+            System.out.print(num + " ");
+        }
+    }
 }
